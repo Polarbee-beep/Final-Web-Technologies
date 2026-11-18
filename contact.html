@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlockCrafters | Contact</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">▦ BlockCrafters</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+      <button id="themeToggle" class="btn btn-outline-light ms-lg-3">☾ Theme</button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container">
+    <p class="eyebrow">LET'S PLAN SOMETHING</p>
+    <h1>Contact the studio</h1>
+    <p class="lead">Tell us what you want to create.</p>
+  </div>
+</header>
+
+<main class="container py-5">
+  <div class="row g-4">
+    <div class="col-lg-7">
+      <section class="panel p-4">
+        <h2>Project request</h2>
+        <p class="muted">This demo validates your request in the browser. It does not send data to a server.</p>
+
+        <form id="contactForm" novalidate>
+          <div class="mb-3">
+            <label class="form-label" for="contactName">Name</label>
+            <input id="contactName" class="form-control" autocomplete="name">
+            <small class="field-error" id="nameError"></small>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="contactEmail">Email</label>
+            <input id="contactEmail" class="form-control" autocomplete="email">
+            <small class="field-error" id="emailError"></small>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="contactType">Project type</label>
+            <select id="contactType" class="form-select">
+              <option value="">Choose a project type</option>
+              <option>Spawn / Hub</option>
+              <option>Fantasy build</option>
+              <option>Survival base</option>
+              <option>Terrain / Landscape</option>
+              <option>Other</option>
+            </select>
+            <small class="field-error" id="typeError"></small>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="contactMessage">Project details</label>
+            <textarea id="contactMessage" class="form-control" rows="5" placeholder="Describe your idea (at least 20 characters)"></textarea>
+            <small class="field-error" id="messageError"></small>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Validate request</button>
+          <div id="contactSuccess" class="success-message mt-3" role="status"></div>
+        </form>
+      </section>
+    </div>
+
+    <div class="col-lg-5">
+      <section class="feature-card h-100">
+        <p class="eyebrow">BEFORE YOU SEND</p>
+        <h2>Helpful details</h2>
+        <ul class="help-list">
+          <li>Theme and visual references</li>
+          <li>Approximate build dimensions</li>
+          <li>Game edition and version</li>
+          <li>World or server constraints</li>
+          <li>Preferred completion timeline</li>
+        </ul>
+        <div class="notice mt-4">Tip: the Gallery page lets you save sample builds and test the CRUD interface.</div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container d-flex justify-content-between flex-wrap gap-2">
+    <span>© 2026 BlockCrafters</span>
+    <span>Minecraft building studio · Student project</span>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
