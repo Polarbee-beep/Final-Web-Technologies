@@ -4,8 +4,9 @@ A responsive five-page client-side web application for a fictional Minecraft bui
 
 ## Live Demo & Repository
 
-- **Live Deployed Website:** https://github.io
-- **GitHub Repository:** https://github.com
+- **Live Deployed Website:** 	
+https://github.com/Polarbee-beep/Final-Web-Technologies
+- **GitHub Repository:** https://polarbee-beep.github.io/Final-Web-Technologies/
 
 ## Group Members & Contributions
 
